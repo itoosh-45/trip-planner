@@ -1,0 +1,243 @@
+@import "tailwindcss";
+
+/*
+  Watercolor sketchbook.
+  The Tailwind palettes the components already use are re-pigmented here, so every
+  `text-gray-*`, `bg-blue-*`, `bg-orange-*`... class draws from the same paint box:
+  gray = graphite pencil, the rest = transparent pigments. One place to tune color.
+*/
+@theme {
+  --font-app: 'Noto Sans Hebrew', -apple-system, 'SF Hebrew', system-ui, 'Segoe UI', sans-serif;
+  --font-sans: var(--font-app);
+
+  --color-paper: #fcfcfa;
+  --color-white: #ffffff;
+
+  /* graphite */
+  --color-gray-50: #f7f7f5;
+  --color-gray-100: #f0f0ed;
+  --color-gray-200: #e4e4e0;
+  --color-gray-300: #cbcbc7;
+  --color-gray-400: #9c9d9f;
+  --color-gray-500: #6c6e73;
+  --color-gray-600: #585a5f;
+  --color-gray-700: #45474c;
+  --color-gray-800: #33353a;
+  --color-gray-900: #26282c;
+  --color-slate-50: #f2f4f6;
+  --color-slate-100: #e3e7eb;
+  --color-slate-200: #c9d0d7;
+  --color-slate-300: #a8b2bd;
+  --color-slate-400: #8894a1;
+  --color-slate-500: #6d7986;
+  --color-slate-600: #58636f;
+  --color-slate-700: #47505a;
+  --color-slate-800: #373e46;
+
+  /* ultramarine: the one action color */
+  --color-blue-50: #eef2fb;
+  --color-blue-100: #dde5f6;
+  --color-blue-200: #c0cdee;
+  --color-blue-300: #9bb0e2;
+  --color-blue-400: #7892d3;
+  --color-blue-500: #5a76c4;
+  --color-blue-600: #4861ae;
+  --color-blue-700: #3b4f8f;
+  --color-blue-800: #324274;
+  --color-blue-900: #28355c;
+
+  /* category pigments */
+  --color-indigo-50: #f0f0fa;
+  --color-indigo-100: #e1e1f4;
+  --color-indigo-200: #c7c7ea;
+  --color-indigo-300: #a6a6db;
+  --color-indigo-400: #8686ca;
+  --color-indigo-500: #6b6ab8;
+  --color-indigo-600: #5756a0;
+  --color-indigo-700: #474683;
+  --color-indigo-800: #3a3969;
+  --color-sky-50: #edf6fa;
+  --color-sky-100: #d8ecf4;
+  --color-sky-200: #b5daea;
+  --color-sky-300: #8ac3dc;
+  --color-sky-400: #62abcb;
+  --color-sky-500: #4494b7;
+  --color-sky-600: #357a99;
+  --color-sky-700: #2c647d;
+  --color-orange-50: #fcf2ec;
+  --color-orange-100: #f8e2d5;
+  --color-orange-200: #f1c6ad;
+  --color-orange-300: #e8a57f;
+  --color-orange-400: #de8656;
+  --color-orange-500: #cf6d3c;
+  --color-orange-600: #b25a30;
+  --color-orange-700: #8f4828;
+  --color-pink-50: #fbeff2;
+  --color-pink-100: #f6dde3;
+  --color-pink-200: #edbcc8;
+  --color-pink-300: #e297aa;
+  --color-pink-400: #d5738d;
+  --color-pink-500: #c45775;
+  --color-pink-600: #a74762;
+  --color-pink-700: #873a50;
+  --color-purple-50: #f5f0f8;
+  --color-purple-100: #eadff1;
+  --color-purple-200: #d7c2e4;
+  --color-purple-300: #be9fd3;
+  --color-purple-400: #a37dc0;
+  --color-purple-500: #8b62ac;
+  --color-purple-600: #744f92;
+  --color-purple-700: #5e4076;
+  --color-violet-50: #f5f0f8;
+  --color-violet-100: #eadff1;
+  --color-violet-200: #d7c2e4;
+  --color-violet-300: #be9fd3;
+  --color-violet-400: #a37dc0;
+  --color-violet-500: #8b62ac;
+  --color-violet-600: #744f92;
+  --color-violet-700: #5e4076;
+  --color-teal-50: #ecf6f3;
+  --color-teal-100: #d6ece6;
+  --color-teal-200: #b0d9ce;
+  --color-teal-300: #84c1b1;
+  --color-teal-400: #5ca894;
+  --color-teal-500: #3f8f7b;
+  --color-teal-600: #327564;
+  --color-teal-700: #295f52;
+
+  /* budget status: sap green, yellow ochre, crimson */
+  --color-green-50: #eff6ec;
+  --color-green-100: #ddedd6;
+  --color-green-200: #bcdbb0;
+  --color-green-300: #97c586;
+  --color-green-400: #74ae62;
+  --color-green-500: #5a9448;
+  --color-green-600: #48793a;
+  --color-green-700: #3a6030;
+  --color-emerald-50: #eff6ec;
+  --color-emerald-100: #ddedd6;
+  --color-emerald-200: #bcdbb0;
+  --color-emerald-300: #97c586;
+  --color-emerald-400: #74ae62;
+  --color-emerald-500: #5a9448;
+  --color-emerald-600: #48793a;
+  --color-emerald-700: #3a6030;
+  --color-amber-50: #fbf5e6;
+  --color-amber-100: #f6e9c6;
+  --color-amber-200: #edd595;
+  --color-amber-300: #e2bd62;
+  --color-amber-400: #d5a53f;
+  --color-amber-500: #bf8c2c;
+  --color-amber-600: #9e7124;
+  --color-amber-700: #7e5a1f;
+  --color-red-50: #fbeeec;
+  --color-red-100: #f6dbd7;
+  --color-red-200: #edb8b0;
+  --color-red-300: #e18e83;
+  --color-red-400: #d26a5d;
+  --color-red-500: #be5042;
+  --color-red-600: #a04135;
+  --color-red-700: #82362c;
+  --color-rose-50: #fbeeec;
+  --color-rose-100: #f6dbd7;
+  --color-rose-200: #edb8b0;
+  --color-rose-300: #e18e83;
+  --color-rose-400: #d26a5d;
+  --color-rose-500: #be5042;
+  --color-rose-600: #a04135;
+  --color-rose-700: #82362c;
+}
+
+@layer base {
+  html {
+    direction: rtl;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.55;
+    color: var(--color-gray-800);
+    /* cold-press paper: white with a whisper of grain */
+    background-color: var(--color-paper);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .3 0 0 0 0 .28 0 0 0 .13 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    font-weight: 500;
+    color: var(--color-gray-900);
+    letter-spacing: 0;
+    text-wrap: balance;
+  }
+
+  /* numbers line up like a ledger */
+  input, select, textarea, table, .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  ::selection {
+    background: var(--color-blue-100);
+    color: var(--color-gray-900);
+  }
+
+  input, textarea {
+    caret-color: var(--color-blue-600);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-blue-400);
+    outline-offset: 2px;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-gray-300) transparent;
+  }
+}
+
+@layer utilities {
+  /* a pigment wash: soft irregular edge from the shared #wash SVG filter (see App.tsx) */
+  .wash {
+    filter: url(#wash);
+    mix-blend-mode: multiply;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* one authored motion: a page of the sketchbook settling in */
+  .page-in {
+    animation: page-in 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0.4;
+    transform: translateY(6px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-in {
+    animation: none;
+  }
+}

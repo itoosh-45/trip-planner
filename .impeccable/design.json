@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-22T16:30:00Z",
+  "title": "Design System: מתכנן הטיול",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cold-Press Paper",
+        "canonical": "#fcfcfa",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#e4e4e0",
+          "#fcfcfa"
+        ]
+      },
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Sheet White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#e4e4e0",
+          "#ffffff"
+        ]
+      },
+      "graphite-heading": {
+        "role": "neutral",
+        "displayName": "Graphite Heading",
+        "canonical": "#26282c",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#cbcbc7",
+          "#f0f0ed"
+        ]
+      },
+      "graphite-ink": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "canonical": "#33353a",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#cbcbc7",
+          "#f0f0ed"
+        ]
+      },
+      "graphite-soft": {
+        "role": "neutral",
+        "displayName": "Soft Graphite",
+        "canonical": "#585a5f",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#cbcbc7",
+          "#f0f0ed"
+        ]
+      },
+      "graphite-muted": {
+        "role": "neutral",
+        "displayName": "Muted Graphite",
+        "canonical": "#6c6e73",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#cbcbc7",
+          "#f0f0ed"
+        ]
+      },
+      "graphite-faint": {
+        "role": "neutral",
+        "displayName": "Faint Graphite",
+        "canonical": "#9c9d9f",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#cbcbc7",
+          "#f0f0ed"
+        ]
+      },
+      "pencil-dash": {
+        "role": "neutral",
+        "displayName": "Pencil Dash",
+        "canonical": "#cbcbc7",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#cbcbc7",
+          "#f0f0ed"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e4e4e0",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#e4e4e0",
+          "#f7f7f5"
+        ]
+      },
+      "hairline-soft": {
+        "role": "neutral",
+        "displayName": "Soft Hairline",
+        "canonical": "#f0f0ed",
+        "tonalRamp": [
+          "#26282c",
+          "#33353a",
+          "#45474c",
+          "#585a5f",
+          "#6c6e73",
+          "#9c9d9f",
+          "#f0f0ed",
+          "#f7f7f5"
+        ]
+      },
+      "ultramarine": {
+        "role": "primary",
+        "displayName": "Ultramarine",
+        "canonical": "#4861ae",
+        "tonalRamp": [
+          "#28355c",
+          "#324274",
+          "#3b4f8f",
+          "#4861ae",
+          "#5a76c4",
+          "#7892d3",
+          "#c0cdee",
+          "#eef2fb"
+        ]
+      },
+      "ultramarine-deep": {
+        "role": "primary",
+        "displayName": "Deep Ultramarine",
+        "canonical": "#3b4f8f",
+        "tonalRamp": [
+          "#28355c",
+          "#324274",
+          "#3b4f8f",
+          "#4861ae",
+          "#5a76c4",
+          "#7892d3",
+          "#c0cdee",
+          "#eef2fb"
+        ]
+      },
+      "ultramarine-ink": {
+        "role": "primary",
+        "displayName": "Ultramarine Ink",
+        "canonical": "#28355c",
+        "tonalRamp": [
+          "#28355c",
+          "#324274",
+          "#3b4f8f",
+          "#4861ae",
+          "#5a76c4",
+          "#7892d3",
+          "#c0cdee",
+          "#eef2fb"
+        ]
+      },
+      "ultramarine-focus": {
+        "role": "primary",
+        "displayName": "Ultramarine Focus",
+        "canonical": "#7892d3",
+        "tonalRamp": [
+          "#28355c",
+          "#324274",
+          "#3b4f8f",
+          "#4861ae",
+          "#5a76c4",
+          "#7892d3",
+          "#c0cdee",
+          "#eef2fb"
+        ]
+      },
+      "ultramarine-wash": {
+        "role": "primary",
+        "displayName": "Ultramarine Wash",
+        "canonical": "#c0cdee",
+        "tonalRamp": [
+          "#28355c",
+          "#324274",
+          "#3b4f8f",
+          "#4861ae",
+          "#5a76c4",
+          "#7892d3",
+          "#c0cdee",
+          "#eef2fb"
+        ]
+      },
+      "ultramarine-tint": {
+        "role": "primary",
+        "displayName": "Ultramarine Tint",
+        "canonical": "#dde5f6",
+        "tonalRamp": [
+          "#28355c",
+          "#324274",
+          "#3b4f8f",
+          "#4861ae",
+          "#5a76c4",
+          "#7892d3",
+          "#dde5f6",
+          "#eef2fb"
+        ]
+      },
+      "ultramarine-mist": {
+        "role": "primary",
+        "displayName": "Ultramarine Mist",
+        "canonical": "#eef2fb",
+        "tonalRamp": [
+          "#28355c",
+          "#324274",
+          "#3b4f8f",
+          "#4861ae",
+          "#5a76c4",
+          "#7892d3",
+          "#dde5f6",
+          "#eef2fb"
+        ]
+      },
+      "pigment-accommodation": {
+        "role": "secondary",
+        "displayName": "Indigo (accommodation)",
+        "canonical": "#a6a6db",
+        "tonalRamp": [
+          "#3a3969",
+          "#474683",
+          "#5756a0",
+          "#6b6ab8",
+          "#8686ca",
+          "#a6a6db",
+          "#c7c7ea",
+          "#f0f0fa"
+        ]
+      },
+      "pigment-flights": {
+        "role": "secondary",
+        "displayName": "Cerulean (flights)",
+        "canonical": "#8ac3dc",
+        "tonalRamp": [
+          "#2c647d",
+          "#357a99",
+          "#4494b7",
+          "#62abcb",
+          "#8ac3dc",
+          "#b5daea",
+          "#d8ecf4",
+          "#edf6fa"
+        ]
+      },
+      "pigment-food": {
+        "role": "secondary",
+        "displayName": "Burnt Sienna (food)",
+        "canonical": "#e8a57f",
+        "tonalRamp": [
+          "#8f4828",
+          "#b25a30",
+          "#cf6d3c",
+          "#de8656",
+          "#e8a57f",
+          "#f1c6ad",
+          "#f8e2d5",
+          "#fcf2ec"
+        ]
+      },
+      "pigment-attractions": {
+        "role": "secondary",
+        "displayName": "Alizarin Rose (attractions)",
+        "canonical": "#e297aa",
+        "tonalRamp": [
+          "#873a50",
+          "#a74762",
+          "#c45775",
+          "#d5738d",
+          "#e297aa",
+          "#edbcc8",
+          "#f6dde3",
+          "#fbeff2"
+        ]
+      },
+      "pigment-shopping": {
+        "role": "secondary",
+        "displayName": "Violet (shopping)",
+        "canonical": "#be9fd3",
+        "tonalRamp": [
+          "#5e4076",
+          "#744f92",
+          "#8b62ac",
+          "#a37dc0",
+          "#be9fd3",
+          "#d7c2e4",
+          "#eadff1",
+          "#f5f0f8"
+        ]
+      },
+      "pigment-transport": {
+        "role": "secondary",
+        "displayName": "Viridian (local transport)",
+        "canonical": "#84c1b1",
+        "tonalRamp": [
+          "#295f52",
+          "#327564",
+          "#3f8f7b",
+          "#5ca894",
+          "#84c1b1",
+          "#b0d9ce",
+          "#d6ece6",
+          "#ecf6f3"
+        ]
+      },
+      "pigment-other": {
+        "role": "secondary",
+        "displayName": "Payne's Gray (other)",
+        "canonical": "#a8b2bd",
+        "tonalRamp": [
+          "#373e46",
+          "#47505a",
+          "#58636f",
+          "#6d7986",
+          "#8894a1",
+          "#a8b2bd",
+          "#c9d0d7",
+          "#f2f4f6"
+        ]
+      },
+      "sap-wash": {
+        "role": "tertiary",
+        "displayName": "Sap Green",
+        "canonical": "#97c586",
+        "tonalRamp": [
+          "#3a6030",
+          "#48793a",
+          "#5a9448",
+          "#74ae62",
+          "#97c586",
+          "#bcdbb0",
+          "#ddedd6",
+          "#eff6ec"
+        ]
+      },
+      "sap-ink": {
+        "role": "tertiary",
+        "displayName": "Sap Ink",
+        "canonical": "#3a6030",
+        "tonalRamp": [
+          "#3a6030",
+          "#48793a",
+          "#5a9448",
+          "#74ae62",
+          "#97c586",
+          "#bcdbb0",
+          "#ddedd6",
+          "#eff6ec"
+        ]
+      },
+      "ochre-wash": {
+        "role": "tertiary",
+        "displayName": "Yellow Ochre",
+        "canonical": "#e2bd62",
+        "tonalRamp": [
+          "#7e5a1f",
+          "#9e7124",
+          "#bf8c2c",
+          "#d5a53f",
+          "#e2bd62",
+          "#edd595",
+          "#f6e9c6",
+          "#fbf5e6"
+        ]
+      },
+      "ochre-ink": {
+        "role": "tertiary",
+        "displayName": "Ochre Ink",
+        "canonical": "#7e5a1f",
+        "tonalRamp": [
+          "#7e5a1f",
+          "#9e7124",
+          "#bf8c2c",
+          "#d5a53f",
+          "#e2bd62",
+          "#edd595",
+          "#f6e9c6",
+          "#fbf5e6"
+        ]
+      },
+      "crimson-wash": {
+        "role": "tertiary",
+        "displayName": "Crimson",
+        "canonical": "#e18e83",
+        "tonalRamp": [
+          "#82362c",
+          "#a04135",
+          "#be5042",
+          "#d26a5d",
+          "#e18e83",
+          "#edb8b0",
+          "#f6dbd7",
+          "#fbeeec"
+        ]
+      },
+      "crimson-ink": {
+        "role": "tertiary",
+        "displayName": "Crimson Ink",
+        "canonical": "#a04135",
+        "tonalRamp": [
+          "#82362c",
+          "#a04135",
+          "#be5042",
+          "#d26a5d",
+          "#e18e83",
+          "#edb8b0",
+          "#f6dbd7",
+          "#fbeeec"
+        ]
+      },
+      "crimson-tint": {
+        "role": "tertiary",
+        "displayName": "Crimson Tint",
+        "canonical": "#fbeeec",
+        "tonalRamp": [
+          "#82362c",
+          "#a04135",
+          "#be5042",
+          "#d26a5d",
+          "#e18e83",
+          "#edb8b0",
+          "#f6dbd7",
+          "#fbeeec"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The remaining-budget amount on the ledger line and the editable total budget; 1.875rem rising to 2.25rem from 640px, light, tabular."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Tab headings and empty-state headings, in Noto Sans Hebrew 500."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Trip name, day titles, modal titles, analytics section headings (1.125rem to 1.25rem)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Row titles, row amounts, form input text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Metadata lines, field labels, status text, filter controls; tabular."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Mobile bottom-tab labels and chart value labels only."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "page-in",
+        "value": "page-in 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; from { opacity: 0.4; transform: translateY(6px) }",
+        "purpose": "The one authored motion: a sketchbook page settling in on tab change and modal open. Disabled under prefers-reduced-motion."
+      },
+      {
+        "name": "progress-width",
+        "value": "width 700ms",
+        "purpose": "Progress washes grow to their new width."
+      },
+      {
+        "name": "color-state",
+        "value": "color, background-color 150ms",
+        "purpose": "Default Tailwind transition-colors on hover states."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "washFilter": {
+      "name": "#wash",
+      "purpose": "Shared SVG filter in App.tsx applied by the .wash utility (filter: url(#wash); mix-blend-mode: multiply). Turbulence displacement (baseFrequency 0.035, scale 7) for the paper-soaked edge, 0.6 blur, grain granulation (baseFrequency 0.65), and a darkened pooled rim (erode 1.2, 80% value, 55% alpha)."
+    },
+    "focusRing": "outline: 2px solid var(--color-blue-400); outline-offset: 2px; border-radius: 6px",
+    "scrim": "rgb(38 40 44 / 0.25)"
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single solid action per view: add day, add expense, submit.",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg>הוספת הוצאה</button>",
+      "css": ".ds-btn-primary { direction: rtl; display: inline-flex; align-items: center; gap: 8px; background: var(--color-blue-600, #4861ae); color: #fff; padding: 10px 20px; border: none; border-radius: 9999px; font-family: 'Noto Sans Hebrew', system-ui, sans-serif; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background-color 150ms; } .ds-btn-primary:hover { background: var(--color-blue-700, #3b4f8f); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-blue-400, #7892d3); outline-offset: 2px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary add beside a heading.",
+      "html": "<button class=\"ds-btn-outline\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg>יום</button>",
+      "css": ".ds-btn-outline { direction: rtl; display: inline-flex; align-items: center; gap: 6px; background: transparent; color: var(--color-blue-700, #3b4f8f); border: 1px solid var(--color-blue-200, #c0cdee); padding: 8px 14px; border-radius: 9999px; font-family: 'Noto Sans Hebrew', system-ui, sans-serif; font-size: 0.875rem; font-weight: 600; cursor: pointer; transition: background-color 150ms; } .ds-btn-outline:hover { background: var(--color-blue-50, #eef2fb); } .ds-btn-outline:focus-visible { outline: 2px solid var(--color-blue-400, #7892d3); outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Cancel in forms and confirmations.",
+      "html": "<button class=\"ds-btn-secondary\">ביטול</button>",
+      "css": ".ds-btn-secondary { background: #fff; color: var(--color-gray-700, #45474c); border: 1px solid var(--color-gray-200, #e4e4e0); padding: 12px 20px; border-radius: 9999px; font-family: 'Noto Sans Hebrew', system-ui, sans-serif; font-size: 1rem; cursor: pointer; transition: background-color 150ms; } .ds-btn-secondary:hover { background: var(--color-gray-50, #f7f7f5); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--color-blue-400, #7892d3); outline-offset: 2px; }"
+    },
+    {
+      "name": "Floating Add-Expense Button",
+      "kind": "custom",
+      "refersTo": "button-fab",
+      "description": "Phone-only wash pill above the bottom bar, the mid-trip thumb action.",
+      "html": "<button class=\"ds-fab\"><span class=\"ds-fab-wash\"></span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg>הוצאה</button>",
+      "css": ".ds-fab { direction: rtl; position: relative; isolation: isolate; display: inline-flex; align-items: center; gap: 6px; background: transparent; border: none; color: var(--color-blue-900, #28355c); padding: 12px 16px 12px 20px; border-radius: 9999px; font-family: 'Noto Sans Hebrew', system-ui, sans-serif; font-size: 1rem; font-weight: 600; cursor: pointer; } .ds-fab-wash { position: absolute; inset: 0; z-index: -1; border-radius: 9999px; background: var(--color-blue-200, #c0cdee); filter: url(#wash); } .ds-fab:active { background: var(--color-blue-50, #eef2fb); } .ds-fab:focus-visible { outline: 2px solid var(--color-blue-400, #7892d3); outline-offset: 2px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Form field under a small graphite label with a faint icon.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">סכום</span><input class=\"ds-input\" type=\"number\" value=\"42\"></label>",
+      "css": ".ds-field { direction: rtl; display: block; font-family: 'Noto Sans Hebrew', system-ui, sans-serif; } .ds-field-label { display: block; margin-bottom: 6px; font-size: 0.875rem; color: var(--color-gray-600, #585a5f); } .ds-input { width: 100%; background: #fff; border: 1px solid var(--color-gray-200, #e4e4e0); border-radius: 12px; padding: 10px 14px; font: inherit; font-size: 1rem; color: var(--color-gray-900, #26282c); font-variant-numeric: tabular-nums; caret-color: var(--color-blue-600, #4861ae); outline: none; transition: border-color 150ms; } .ds-input:hover { border-color: var(--color-gray-300, #cbcbc7); } .ds-input:focus { border-color: var(--color-blue-400, #7892d3); }"
+    },
+    {
+      "name": "Filter Pill",
+      "kind": "chip",
+      "refersTo": "input-filter",
+      "description": "Search, category filter and sort controls above the ledger.",
+      "html": "<button class=\"ds-filter\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#9c9d9f\" stroke-width=\"1.75\" stroke-linecap=\"round\"><path d=\"m21 16-4 4-4-4\"/><path d=\"M17 20V4\"/><path d=\"m3 8 4-4 4 4\"/><path d=\"M7 4v16\"/></svg>תאריך</button>",
+      "css": ".ds-filter { direction: rtl; display: inline-flex; align-items: center; gap: 6px; background: #fff; border: 1px solid var(--color-gray-200, #e4e4e0); border-radius: 9999px; padding: 8px 16px; font-family: 'Noto Sans Hebrew', system-ui, sans-serif; font-size: 0.875rem; color: var(--color-gray-700, #45474c); cursor: pointer; transition: background-color 150ms, border-color 150ms; } .ds-filter:hover { background: var(--color-gray-50, #f7f7f5); } .ds-filter:focus-visible { outline: 2px solid var(--color-blue-400, #7892d3); outline-offset: 2px; }"
+    },
+    {
+      "name": "Ledger Sheet",
+      "kind": "card",
+      "refersTo": "card-sheet",
+      "description": "One white sheet of hairline-divided rows, each with a category wash dot.",
+      "html": "<ul class=\"ds-sheet\"><li class=\"ds-row\"><span class=\"ds-dot\" style=\"background:#e8a57f\"></span><span class=\"ds-row-main\"><span class=\"ds-row-title\">ארוחת ערב</span><span class=\"ds-row-meta\">אוכל · 15.10</span></span><span class=\"ds-row-amt\">€ 80</span></li><li class=\"ds-row\"><span class=\"ds-dot\" style=\"background:#a6a6db\"></span><span class=\"ds-row-main\"><span class=\"ds-row-title\">מלון ברומא</span><span class=\"ds-row-meta\">לינה · 15.10</span></span><span class=\"ds-row-amt\">€ 420</span></li></ul>",
+      "css": ".ds-sheet { direction: rtl; list-style: none; margin: 0; padding: 0; background: #fff; border: 1px solid var(--color-gray-200, #e4e4e0); border-radius: 16px; font-family: 'Noto Sans Hebrew', system-ui, sans-serif; font-variant-numeric: tabular-nums; } .ds-row { display: flex; align-items: flex-start; gap: 12px; padding: 14px 20px; } .ds-row + .ds-row { border-top: 1px solid var(--color-gray-100, #f0f0ed); } .ds-dot { width: 14px; height: 14px; margin-top: 6px; border-radius: 9999px; flex-shrink: 0; filter: url(#wash); mix-blend-mode: multiply; } .ds-row-main { flex: 1; display: flex; flex-direction: column; } .ds-row-title { color: var(--color-gray-900, #26282c); } .ds-row-meta { font-size: 0.875rem; color: var(--color-gray-500, #6c6e73); } .ds-row-amt { color: var(--color-gray-900, #26282c); }"
+    },
+    {
+      "name": "Progress Wash",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Status-colored wash stroke growing from the right on a soft hairline track.",
+      "html": "<div class=\"ds-progress\"><div class=\"ds-progress-fill\" style=\"width:59%\"></div></div>",
+      "css": ".ds-progress { direction: rtl; position: relative; height: 10px; border-radius: 9999px; background: var(--color-gray-100, #f0f0ed); } .ds-progress-fill { position: absolute; top: 0; bottom: 0; right: 0; border-radius: 9999px; background: var(--color-green-300, #97c586); opacity: 0.9; filter: url(#wash); mix-blend-mode: multiply; transition: width 700ms; }"
+    },
+    {
+      "name": "Bottom Tab Bar",
+      "kind": "nav",
+      "refersTo": "nav-bar",
+      "description": "Phone tab bar: paper ground, hairline top, active icon on an ultramarine tint wash pill.",
+      "html": "<nav class=\"ds-tabs\"><button class=\"ds-tab ds-tab-active\"><span class=\"ds-tab-icon\"><span class=\"ds-tab-wash\"></span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M16 2v4M8 2v4M3 10h18\"/></svg></span>ימים</button><button class=\"ds-tab\"><span class=\"ds-tab-icon\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\"><rect x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path d=\"M2 10h20\"/></svg></span>הוצאות</button></nav>",
+      "css": ".ds-tabs { direction: rtl; display: grid; grid-template-columns: repeat(2, 1fr); background: var(--color-paper, #fcfcfa); border-top: 1px solid var(--color-gray-200, #e4e4e0); font-family: 'Noto Sans Hebrew', system-ui, sans-serif; } .ds-tab { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 0 10px; background: none; border: none; font-size: 0.75rem; color: var(--color-gray-500, #6c6e73); cursor: pointer; } .ds-tab:hover { color: var(--color-gray-800, #33353a); } .ds-tab:focus-visible { outline: 2px solid var(--color-blue-400, #7892d3); outline-offset: 2px; } .ds-tab-active { color: var(--color-blue-700, #3b4f8f); } .ds-tab-icon { position: relative; display: grid; place-items: center; width: 48px; height: 28px; } .ds-tab-icon svg { position: relative; } .ds-tab-wash { position: absolute; inset: 0; border-radius: 9999px; background: var(--color-blue-100, #dde5f6); filter: url(#wash); mix-blend-mode: multiply; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Watercolor Travel Sketchbook",
+    "overview": "The trip is kept like a sketchbook carried in a day bag, not a finance dashboard. The ground is bright cold-press paper (a near-white with a faint fractal-noise grain baked into the body background). All structure is drawn in graphite: warm grays for ink, hairline 1px rules for divisions, dashed pencil lines for anything editable or approximate. Color arrives only as transparent pigment washes: soft, irregular-edged shapes that carry meaning (a budget category, a budget status, the one action color), never decoration.\n\nDensity is calm but full. Screens open on a single ledger line (the remaining amount, large and light, with a watercolor stroke showing utilization) and then a page of content in one white sheet divided by hairlines. There are no KPI card grids, no gradients, no glass, and no shadows. The interface is Hebrew and right-to-left by construction: `html` is `direction: rtl`, bars grow from the right, timelines hang on the right edge.\n\nThe wash is the signature. Every pigment shape passes through one shared SVG filter (`#wash`): a turbulence displacement for the wobbly paper-soaked edge, grain granulation, and a darker pooled rim where the water dried, composited with `multiply` so overlapping washes deepen the way glazes do.",
+    "keyCharacteristics": [
+      "Bright paper ground with grain; white sheets bounded by hairlines, never lifted by shadow.",
+      "Graphite-gray type and rules; color only as pigment washes that each mean something.",
+      "One action color (ultramarine); seven category pigments; three status pigments (sap, ochre, crimson).",
+      "One quiet Hebrew sans (Noto Sans Hebrew) for everything, headings stepped up by weight, tabular numerals everywhere money appears.",
+      "One authored motion: a page settling in."
+    ],
+    "rules": [
+      {
+        "name": "The Pigment Means Something Rule",
+        "body": "Color appears only as a wash that encodes a category, a budget status, or the action. A wash with no meaning does not ship.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Paint Box Rule",
+        "body": "New colors are added by re-pigmenting a Tailwind ramp in `src/index.css`, never by hard-coding a hex in a component. `emerald` mirrors `green`, `rose` mirrors `red`, `violet` mirrors `purple`, so stray classes still land in the box.",
+        "section": "colors"
+      },
+      {
+        "name": "The Same Pigment Everywhere Rule",
+        "body": "A category keeps one pigment across every tab; a pigment is never reused for a second category.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Face Rule",
+        "body": "Noto Sans Hebrew is the only family (user-pinned). Hierarchy comes from size and weight (300 display, 500 headings, 600 buttons), never from a second typeface.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ledger Numerals Rule",
+        "body": "Every amount, date, time, and count uses tabular figures (inputs, tables, and anything marked `.tabular`).",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper Doesn't Float Rule",
+        "body": "Surfaces are separated by hairlines and tone, never by shadow or blur. A new surface gets a 1px `hairline` border and a white or paper fill.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** paint every colored shape through the shared `#wash` filter (the `.wash` utility) so edges stay soft and irregular and overlaps glaze.",
+      "**Do** color a category with its one pigment on every tab, and add new pigments by re-pigmenting a ramp in `src/index.css`.",
+      "**Do** color budget status as Sap Green below 85%, Yellow Ochre at 85% or more, and Crimson over budget, the same everywhere.",
+      "**Do** set everything in Noto Sans Hebrew: headings and names at 500, everything read or tapped at 400, tabular numerals on every amount.",
+      "**Do** hold a page's rows in one white 16px sheet divided by hairlines.",
+      "**Do** mark editable or approximate values with a dashed pencil line.",
+      "**Do** keep a single solid Ultramarine action per view; other actions are outline, ghost, or icon buttons.",
+      "**Do** build RTL-first: bars grow from the right, the timeline spine sits on the right, the floating button sits on the left."
+    ],
+    "donts": [
+      "**Don't** add `box-shadow`, glass, or blur to lift a surface; use a hairline and tone.",
+      "**Don't** use gradients, or build the gradient header plus four KPI cards plus shadowed card grid this system was made to replace.",
+      "**Don't** use a pigment wash with no meaning, or reuse one category's pigment for another.",
+      "**Don't** add a second typeface (no handwriting or display face), or bold the display amount.",
+      "**Don't** use Faint Graphite (`graphite-faint`) or Pencil Dash (`pencil-dash`) for text.",
+      "**Don't** add motion beyond page-in and the progress-width transition."
+    ]
+  }
+}
